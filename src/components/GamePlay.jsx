@@ -5,6 +5,7 @@ import RoleDice from "./RoleDice";
 import { useState } from "react";
 import { Button, OutlineButton } from "../styled/Button";
 import Rules from "./Rules";
+import React from 'react';
 
 function GamePlay() {
   const [score, setScore] = useState(0);
