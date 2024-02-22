@@ -1,7 +1,8 @@
+
 import styled from "styled-components";
 import { Button } from "../styled/Button";
 
-const StartGame = ({ toggle }) => {
+const StartGame = ({toggle}) => {
   return (
     <Container>
       <div>
