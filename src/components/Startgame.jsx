@@ -2,7 +2,7 @@
 import styled from "styled-components";
 import { Button } from "../styled/Button";
 
-const StartGame = ({toggle}) => {
+function StartGame({ toggle }) {
   return (
     <Container>
       <div>
@@ -14,7 +14,7 @@ const StartGame = ({toggle}) => {
       </div>
     </Container>
   );
-};
+}
 
 export default StartGame;
 

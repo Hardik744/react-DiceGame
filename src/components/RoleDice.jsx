@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const RoleDice = ({ roleDice, currentDice }) => {
+function RoleDice({ roleDice, currentDice }) {
   return (
     <DiceContainer>
       <div className="dice" onClick={roleDice}>
@@ -9,7 +9,7 @@ const RoleDice = ({ roleDice, currentDice }) => {
       <p>Click on Dice to roll</p>
     </DiceContainer>
   );
-};
+}
 
 export default RoleDice;
 

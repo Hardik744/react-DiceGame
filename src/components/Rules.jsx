@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Rules = () => {
+function Rules() {
   return (
     <RulesContainer>
       <h2>How to play dice game</h2>
@@ -15,7 +15,7 @@ const Rules = () => {
       </div>
     </RulesContainer>
   );
-};
+}
 
 export default Rules;
 
